@@ -1,0 +1,1804 @@
+[QuickStyles1.00]
+(SRDNorthArrowQSTList SubTree
+  (Name String _("North Arrow"))
+  (InstanceInfo SubTree
+    (SmallDefault String  _("North Arrow QS 1: Chevron w/ N"))
+    (LargeDefault String "")
+    (QuickStyleNumber Integer 22)
+    (IsSeleted Integer 0)
+  )
+  (QSTNorthArrow SubTree
+    (Name String _("North Arrow QS 1: Chevron w/ N"))
+    (InstanceInfo SubTree
+      (Deletable Integer 0)
+      (RSTFile String "qst_na1.rst")
+      (RSTSegment Integer 1)
+      (SymbolFile String "qst_na1.sym")
+      (SymbolId Integer 0)
+    )
+    (SRDNorthArrow SubTree
+      (Name String "North Arrow")
+      (InstanceInfo SubTree
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 4)
+        (Original_Quick_Style String _("North Arrow QS 1: Chevron w/ N"))
+        (RST_Group Integer 0)
+        (RST_VirtualRealLut String "GNC=GNC|GNL=GNL|GNR=GNR|GNSym=GNSym|MNC=MNC|MNL=MNL|MNR=MNR|MNSym=MNSym|TNC=TNC|TNL=TNL|TNR=TNR|TNSym=TNSym")
+        (RST_Desc String "North Arrow 1 RST")
+        (Master_Anchor Integer 8)
+        (My_Anchor Integer 7)
+        (X_Offset Double 25)
+        (Y_Offset Double 0)
+      )
+      (SRDTrueNorthArrow SubTree
+        (Name String "True North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("T.N."))
+            (Distance Double 47)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDGridNorthArrow SubTree
+        (Name String "Grid North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("G.N."))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDMagneticNorthArrow SubTree
+        (Name String "Magnetic North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("M.N"))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+    )
+  )
+  (QSTNorthArrow SubTree
+    (Name String _("North Arrow QS 2: NTS-style triple arrow"))
+    (InstanceInfo SubTree
+      (Deletable Integer 0)
+      (RSTFile String "qst_na2.rst")
+      (RSTSegment Integer 1)
+      (SymbolFile String "qst_na2.sym")
+      (SymbolId Integer 0)
+    )
+    (SRDNorthArrow SubTree
+      (Name String "North Arrow")
+      (InstanceInfo SubTree
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 3)
+        (Original_Quick_Style String _("North Arrow QS 2: NTS-style triple arrow"))
+        (RST_Group Integer 0)
+        (RST_VirtualRealLut String "GNC=GNC|GNL=GNL|GNR=GNR|GNSym=GNSym|MNC=MNC|MNL=MNL|MNR=MNR|MNSym=MNSym|TNC=TNC|TNL=TNL|TNR=TNR|TNSym=TNSym")
+        (RST_Desc String "North Arrow 2 RST")
+        (Master_Anchor Integer 8)
+        (My_Anchor Integer 7)
+        (X_Offset Double          25.00000000000)
+        (Y_Offset Double           0.00000000000)
+      )
+      (SRDTrueNorthArrow SubTree
+        (Name String "True North")
+        (InstanceInfo SubTree
+          (Declination Double 90)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("T.N."))
+            (Distance Double 47)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 1)
+          )
+        )
+      )
+      (SRDGridNorthArrow SubTree
+        (Name String "Grid North")
+        (InstanceInfo SubTree
+          (Declination Double           -5.62500000000)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("G.N."))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 1)
+          )
+        )
+      )
+      (SRDMagneticNorthArrow SubTree
+        (Name String "Magnetic North")
+        (InstanceInfo SubTree
+          (Declination Double           10.68750000000)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("M.N"))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 1)
+          )
+        )
+      )
+    )
+  )
+  (QSTNorthArrow SubTree
+    (Name String _("North Arrow QS 3: Sample line arrow"))
+    (InstanceInfo SubTree
+      (Deletable Integer 0)
+      (RSTFile String "qst_na3.rst")
+      (RSTSegment Integer 1)
+      (SymbolFile String "qst_na3.sym")
+      (SymbolId Integer 0)
+    )
+    (SRDNorthArrow SubTree
+      (Name String "North Arrow")
+      (InstanceInfo SubTree
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 4)
+        (Original_Quick_Style String _("North Arrow QS 3: Sample line arrow"))
+        (RST_Group Integer 0)
+        (RST_VirtualRealLut String "GNC=GNC|GNL=GNL|GNR=GNR|GNSym=GNSym|MNC=MNC|MNL=MNL|MNR=MNR|MNSym=MNSym|TNC=TNC|TNL=TNL|TNR=TNR|TNSym=TNSym")
+        (RST_Desc String "North Arrow 3 RST")
+        (Master_Anchor Integer 8)
+        (My_Anchor Integer 7)
+        (X_Offset Double 25)
+        (Y_Offset Double 0)
+      )
+      (SRDTrueNorthArrow SubTree
+        (Name String "True North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("T.N."))
+            (Distance Double 47)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDGridNorthArrow SubTree
+        (Name String "Grid North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("G.N."))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDMagneticNorthArrow SubTree
+        (Name String "Magnetic North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("M.N"))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+    )
+  )
+  (QSTNorthArrow SubTree
+    (Name String _("North Arrow QS 4: Triangles arrow"))
+    (InstanceInfo SubTree
+      (Deletable Integer 0)
+      (RSTFile String "qst_na4.rst")
+      (RSTSegment Integer 1)
+      (SymbolFile String "qst_na4.sym")
+      (SymbolId Integer 0)
+    )
+    (SRDNorthArrow SubTree
+      (Name String "North Arrow")
+      (InstanceInfo SubTree
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 4)
+        (Original_Quick_Style String _("North Arrow QS 4: Triangles arrow"))
+        (RST_Group Integer 0)
+        (RST_VirtualRealLut String "GNC=GNC|GNL=GNL|GNR=GNR|GNSym=GNSym|MNC=MNC|MNL=MNL|MNR=MNR|MNSym=MNSym|TNC=TNC|TNL=TNL|TNR=TNR|TNSym=TNSym")
+        (RST_Desc String "North Arrow 4 RST")
+        (Master_Anchor Integer 8)
+        (My_Anchor Integer 7)
+        (X_Offset Double 25)
+        (Y_Offset Double 0)
+      )
+      (SRDTrueNorthArrow SubTree
+        (Name String "True North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("T.N."))
+            (Distance Double 47)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDGridNorthArrow SubTree
+        (Name String "Grid North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("G.N."))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDMagneticNorthArrow SubTree
+        (Name String "Magnetic North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("M.N"))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+    )
+  )
+  (QSTNorthArrow SubTree
+    (Name String _("North Arrow QS 5: Hollow chevron"))
+    (InstanceInfo SubTree
+      (Deletable Integer 0)
+      (RSTFile String "qst_na5.rst")
+      (RSTSegment Integer 1)
+      (SymbolFile String "qst_na5.sym")
+      (SymbolId Integer 0)
+    )
+    (SRDNorthArrow SubTree
+      (Name String "North Arrow")
+      (InstanceInfo SubTree
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 4)
+        (Original_Quick_Style String _("North Arrow QS 5: Hollow chevron"))
+        (RST_Group Integer 0)
+        (RST_VirtualRealLut String "GNC=GNC|GNL=GNL|GNR=GNR|GNSym=GNSym|MNC=MNC|MNL=MNL|MNR=MNR|MNSym=MNSym|TNC=TNC|TNL=TNL|TNR=TNR|TNSym=TNSym")
+        (RST_Desc String "North Arrow 5 RST")
+        (Master_Anchor Integer 8)
+        (My_Anchor Integer 7)
+        (X_Offset Double 25)
+        (Y_Offset Double 0)
+      )
+      (SRDTrueNorthArrow SubTree
+        (Name String "True North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("T.N."))
+            (Distance Double 47)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDGridNorthArrow SubTree
+        (Name String "Grid North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("G.N."))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDMagneticNorthArrow SubTree
+        (Name String "Magnetic North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("M.N"))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+    )
+  )
+  (QSTNorthArrow SubTree
+    (Name String _("North Arrow QS 6: Solid chevron"))
+    (InstanceInfo SubTree
+      (Deletable Integer 0)
+      (RSTFile String "qst_na6.rst")
+      (RSTSegment Integer 1)
+      (SymbolFile String "qst_na6.sym")
+      (SymbolId Integer 0)
+    )
+    (SRDNorthArrow SubTree
+      (Name String "North Arrow")
+      (InstanceInfo SubTree
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 4)
+        (Original_Quick_Style String _("North Arrow QS 6: Solid chevron"))
+        (RST_Group Integer 0)
+        (RST_VirtualRealLut String "GNC=GNC|GNL=GNL|GNR=GNR|GNSym=GNSym|MNC=MNC|MNL=MNL|MNR=MNR|MNSym=MNSym|TNC=TNC|TNL=TNL|TNR=TNR|TNSym=TNSym")
+        (RST_Desc String "North Arrow 6 RST")
+        (Master_Anchor Integer 8)
+        (My_Anchor Integer 7)
+        (X_Offset Double 25)
+        (Y_Offset Double 0)
+      )
+      (SRDTrueNorthArrow SubTree
+        (Name String "True North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("T.N."))
+            (Distance Double 47)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDGridNorthArrow SubTree
+        (Name String "Grid North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("G.N."))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDMagneticNorthArrow SubTree
+        (Name String "Magnetic North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("M.N"))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+    )
+  )
+  (QSTNorthArrow SubTree
+    (Name String _("North Arrow QS 7: Hollow chevron w/ inset"))
+    (InstanceInfo SubTree
+      (Deletable Integer 0)
+      (RSTFile String "qst_na7.rst")
+      (RSTSegment Integer 1)
+      (SymbolFile String "qst_na7.sym")
+      (SymbolId Integer 0)
+    )
+    (SRDNorthArrow SubTree
+      (Name String "North Arrow")
+      (InstanceInfo SubTree
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 4)
+        (Original_Quick_Style String _("North Arrow QS 7: Hollow chevron w/ inset"))
+        (RST_Group Integer 0)
+        (RST_VirtualRealLut String "GNC=GNC|GNL=GNL|GNR=GNR|GNSym=GNSym|MNC=MNC|MNL=MNL|MNR=MNR|MNSym=MNSym|TNC=TNC|TNL=TNL|TNR=TNR|TNSym=TNSym")
+        (RST_Desc String "North Arrow 7 RST")
+        (Master_Anchor Integer 8)
+        (My_Anchor Integer 7)
+        (X_Offset Double 25)
+        (Y_Offset Double 0)
+      )
+      (SRDTrueNorthArrow SubTree
+        (Name String "True North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("T.N."))
+            (Distance Double 47)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDGridNorthArrow SubTree
+        (Name String "Grid North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("G.N."))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDMagneticNorthArrow SubTree
+        (Name String "Magnetic North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("M.N"))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+    )
+  )
+  (QSTNorthArrow SubTree
+    (Name String _("North Arrow QS 8: Two-color chevron"))
+    (InstanceInfo SubTree
+      (Deletable Integer 0)
+      (RSTFile String "qst_na8.rst")
+      (RSTSegment Integer 1)
+      (SymbolFile String "qst_na8.sym")
+      (SymbolId Integer 0)
+    )
+    (SRDNorthArrow SubTree
+      (Name String "North Arrow")
+      (InstanceInfo SubTree
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 4)
+        (Original_Quick_Style String _("North Arrow QS 8: Two-color chevron"))
+        (RST_Group Integer 0)
+        (RST_VirtualRealLut String "GNC=GNC|GNL=GNL|GNR=GNR|GNSym=GNSym|MNC=MNC|MNL=MNL|MNR=MNR|MNSym=MNSym|TNC=TNC|TNL=TNL|TNR=TNR|TNSym=TNSym")
+        (RST_Desc String "North Arrow 8 RST")
+        (Master_Anchor Integer 8)
+        (My_Anchor Integer 7)
+        (X_Offset Double 25)
+        (Y_Offset Double 0)
+      )
+      (SRDTrueNorthArrow SubTree
+        (Name String "True North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("T.N."))
+            (Distance Double 47)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDGridNorthArrow SubTree
+        (Name String "Grid North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("G.N."))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDMagneticNorthArrow SubTree
+        (Name String "Magnetic North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("M.N"))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+    )
+  )
+  (QSTNorthArrow SubTree
+    (Name String _("North Arrow QS 9: Triangle in circle"))
+    (InstanceInfo SubTree
+      (Deletable Integer 0)
+      (RSTFile String "qst_na9.rst")
+      (RSTSegment Integer 1)
+      (SymbolFile String "qst_na9.sym")
+      (SymbolId Integer 0)
+    )
+    (SRDNorthArrow SubTree
+      (Name String "North Arrow")
+      (InstanceInfo SubTree
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 4)
+        (Original_Quick_Style String _("North Arrow QS 9: Triangle in circle"))
+        (RST_Group Integer 0)
+        (RST_VirtualRealLut String "GNC=GNC|GNL=GNL|GNR=GNR|GNSym=GNSym|MNC=MNC|MNL=MNL|MNR=MNR|MNSym=MNSym|TNC=TNC|TNL=TNL|TNR=TNR|TNSym=TNSym")
+        (RST_Desc String "North Arrow 9 RST")
+        (Master_Anchor Integer 8)
+        (My_Anchor Integer 7)
+        (X_Offset Double 25)
+        (Y_Offset Double 0)
+      )
+      (SRDTrueNorthArrow SubTree
+        (Name String "True North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("T.N."))
+            (Distance Double 47)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDGridNorthArrow SubTree
+        (Name String "Grid North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("G.N."))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDMagneticNorthArrow SubTree
+        (Name String "Magnetic North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("M.N"))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+    )
+  )
+  (QSTNorthArrow SubTree
+    (Name String _("North Arrow QS 10: Arrow in circle"))
+    (InstanceInfo SubTree
+      (Deletable Integer 0)
+      (RSTFile String "qst_na10.rst")
+      (RSTSegment Integer 1)
+      (SymbolFile String "qst_na10.sym")
+      (SymbolId Integer 0)
+    )
+    (SRDNorthArrow SubTree
+      (Name String "North Arrow")
+      (InstanceInfo SubTree
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 4)
+        (Original_Quick_Style String  _("North Arrow QS 10: Arrow in circle"))
+        (RST_Group Integer 0)
+        (RST_VirtualRealLut String "GNC=GNC|GNL=GNL|GNR=GNR|GNSym=GNSym|MNC=MNC|MNL=MNL|MNR=MNR|MNSym=MNSym|TNC=TNC|TNL=TNL|TNR=TNR|TNSym=TNSym")
+        (RST_Desc String "North Arrow 10 RST")
+        (Master_Anchor Integer 8)
+        (My_Anchor Integer 7)
+        (X_Offset Double 25)
+        (Y_Offset Double 0)
+      )
+      (SRDTrueNorthArrow SubTree
+        (Name String "True North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("T.N."))
+            (Distance Double 47)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDGridNorthArrow SubTree
+        (Name String "Grid North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("G.N."))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDMagneticNorthArrow SubTree
+        (Name String "Magnetic North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("M.N"))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+    )
+  )
+  (QSTNorthArrow SubTree
+    (Name String _("North Arrow QS 11: Arrow w/ N #1"))
+    (InstanceInfo SubTree
+      (Deletable Integer 0)
+      (RSTFile String "qst_na11.rst")
+      (RSTSegment Integer 1)
+      (SymbolFile String "qst_na11.sym")
+      (SymbolId Integer 0)
+    )
+    (SRDNorthArrow SubTree
+      (Name String "North Arrow")
+      (InstanceInfo SubTree
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 4)
+        (Original_Quick_Style String _("North Arrow QS 11: Arrow w/ N #1"))
+        (RST_Group Integer 0)
+        (RST_VirtualRealLut String "GNC=GNC|GNL=GNL|GNR=GNR|GNSym=GNSym|MNC=MNC|MNL=MNL|MNR=MNR|MNSym=MNSym|TNC=TNC|TNL=TNL|TNR=TNR|TNSym=TNSym")
+        (RST_Desc String "North Arrow 11 RST")
+        (Master_Anchor Integer 8)
+        (My_Anchor Integer 7)
+        (X_Offset Double 25)
+        (Y_Offset Double 0)
+      )
+      (SRDTrueNorthArrow SubTree
+        (Name String "True North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("T.N."))
+            (Distance Double 47)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDGridNorthArrow SubTree
+        (Name String "Grid North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("G.N."))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDMagneticNorthArrow SubTree
+        (Name String "Magnetic North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("M.N"))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+    )
+  )
+  (QSTNorthArrow SubTree
+    (Name String _("North Arrow QS 12: Arrow w/ N #2"))
+    (InstanceInfo SubTree
+      (Deletable Integer 0)
+      (RSTFile String "qst_na12.rst")
+      (RSTSegment Integer 1)
+      (SymbolFile String "qst_na12.sym")
+      (SymbolId Integer 0)
+    )
+    (SRDNorthArrow SubTree
+      (Name String "North Arrow")
+      (InstanceInfo SubTree
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 4)
+        (Original_Quick_Style String _("North Arrow QS 12: Arrow w/ N #2"))
+        (RST_Group Integer 0)
+        (RST_VirtualRealLut String "GNC=GNC|GNL=GNL|GNR=GNR|GNSym=GNSym|MNC=MNC|MNL=MNL|MNR=MNR|MNSym=MNSym|TNC=TNC|TNL=TNL|TNR=TNR|TNSym=TNSym")
+        (RST_Desc String "North Arrow 12 RST")
+        (Master_Anchor Integer 8)
+        (My_Anchor Integer 7)
+        (X_Offset Double 25)
+        (Y_Offset Double 0)
+      )
+      (SRDTrueNorthArrow SubTree
+        (Name String "True North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("T.N."))
+            (Distance Double 47)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDGridNorthArrow SubTree
+        (Name String "Grid North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("G.N."))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDMagneticNorthArrow SubTree
+        (Name String "Magnetic North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("M.N"))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+    )
+  )
+  (QSTNorthArrow SubTree
+    (Name String _("North Arrow QS 13: N in chevron"))
+    (InstanceInfo SubTree
+      (Deletable Integer 0)
+      (RSTFile String "qst_na13.rst")
+      (RSTSegment Integer 1)
+      (SymbolFile String "qst_na13.sym")
+      (SymbolId Integer 0)
+    )
+    (SRDNorthArrow SubTree
+      (Name String "North Arrow")
+      (InstanceInfo SubTree
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 4)
+        (Original_Quick_Style String _("North Arrow QS 13: N in chevron"))
+        (RST_Group Integer 0)
+        (RST_VirtualRealLut String "GNC=GNC|GNL=GNL|GNR=GNR|GNSym=GNSym|MNC=MNC|MNL=MNL|MNR=MNR|MNSym=MNSym|TNC=TNC|TNL=TNL|TNR=TNR|TNSym=TNSym")
+        (RST_Desc String "North Arrow 13 RST")
+        (Master_Anchor Integer 8)
+        (My_Anchor Integer 7)
+        (X_Offset Double 25)
+        (Y_Offset Double 0)
+      )
+      (SRDTrueNorthArrow SubTree
+        (Name String "True North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("T.N."))
+            (Distance Double 47)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDGridNorthArrow SubTree
+        (Name String "Grid North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("G.N."))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDMagneticNorthArrow SubTree
+        (Name String "Magnetic North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("M.N"))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+    )
+  )
+  (QSTNorthArrow SubTree
+    (Name String _("North Arrow QS 14: 4 direction rose"))
+    (InstanceInfo SubTree
+      (Deletable Integer 0)
+      (RSTFile String "qst_na14.rst")
+      (RSTSegment Integer 1)
+      (SymbolFile String "qst_na14.sym")
+      (SymbolId Integer 0)
+    )
+    (SRDNorthArrow SubTree
+      (Name String "North Arrow")
+      (InstanceInfo SubTree
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 4)
+        (Original_Quick_Style String _("North Arrow QS 14: 4 direction rose"))
+        (RST_Group Integer 0)
+        (RST_VirtualRealLut String "GNC=GNC|GNL=GNL|GNR=GNR|GNSym=GNSym|MNC=MNC|MNL=MNL|MNR=MNR|MNSym=MNSym|TNC=TNC|TNL=TNL|TNR=TNR|TNSym=TNSym")
+        (RST_Desc String "North Arrow 14 RST")
+        (Master_Anchor Integer 8)
+        (My_Anchor Integer 7)
+        (X_Offset Double 25)
+        (Y_Offset Double 0)
+      )
+      (SRDTrueNorthArrow SubTree
+        (Name String "True North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("T.N."))
+            (Distance Double 47)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDGridNorthArrow SubTree
+        (Name String "Grid North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("G.N."))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDMagneticNorthArrow SubTree
+        (Name String "Magnetic North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("M.N"))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+    )
+  )
+  (QSTNorthArrow SubTree
+    (Name String _("North Arrow QS 15: 8 direction rose"))
+    (InstanceInfo SubTree
+      (Deletable Integer 0)
+      (RSTFile String "qst_na15.rst")
+      (RSTSegment Integer 1)
+      (SymbolFile String "qst_na15.sym")
+      (SymbolId Integer 0)
+    )
+    (SRDNorthArrow SubTree
+      (Name String "North Arrow")
+      (InstanceInfo SubTree
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 4)
+        (Original_Quick_Style String _("North Arrow QS 15: 8 direction rose"))
+        (RST_Group Integer 0)
+        (RST_VirtualRealLut String "GNC=GNC|GNL=GNL|GNR=GNR|GNSym=GNSym|MNC=MNC|MNL=MNL|MNR=MNR|MNSym=MNSym|TNC=TNC|TNL=TNL|TNR=TNR|TNSym=TNSym")
+        (RST_Desc String "North Arrow 15 RST")
+        (Master_Anchor Integer 8)
+        (My_Anchor Integer 7)
+        (X_Offset Double 25)
+        (Y_Offset Double 0)
+      )
+      (SRDTrueNorthArrow SubTree
+        (Name String "True North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("T.N."))
+            (Distance Double 47)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDGridNorthArrow SubTree
+        (Name String "Grid North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("G.N."))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDMagneticNorthArrow SubTree
+        (Name String "Magnetic North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("M.N"))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+    )
+  )
+  (QSTNorthArrow SubTree
+    (Name String _("North Arrow QS 16: 8 direction elongated rose"))
+    (InstanceInfo SubTree
+      (Deletable Integer 0)
+      (RSTFile String "qst_na16.rst")
+      (RSTSegment Integer 1)
+      (SymbolFile String "qst_na16.sym")
+      (SymbolId Integer 0)
+    )
+    (SRDNorthArrow SubTree
+      (Name String "North Arrow")
+      (InstanceInfo SubTree
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 4)
+        (Original_Quick_Style String _("North Arrow QS 16: 8 direction elongated rose"))
+        (RST_Group Integer 0)
+        (RST_VirtualRealLut String "GNC=GNC|GNL=GNL|GNR=GNR|GNSym=GNSym|MNC=MNC|MNL=MNL|MNR=MNR|MNSym=MNSym|TNC=TNC|TNL=TNL|TNR=TNR|TNSym=TNSym")
+        (RST_Desc String "North Arrow 16 RST")
+        (Master_Anchor Integer 8)
+        (My_Anchor Integer 7)
+        (X_Offset Double 25)
+        (Y_Offset Double 0)
+      )
+      (SRDTrueNorthArrow SubTree
+        (Name String "True North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("T.N."))
+            (Distance Double 47)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDGridNorthArrow SubTree
+        (Name String "Grid North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("G.N."))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDMagneticNorthArrow SubTree
+        (Name String "Magnetic North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("M.N"))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+    )
+  )
+  (QSTNorthArrow SubTree
+    (Name String _("North Arrow QS 17: Circle on rose"))
+    (InstanceInfo SubTree
+      (Deletable Integer 0)
+      (RSTFile String "qst_na17.rst")
+      (RSTSegment Integer 1)
+      (SymbolFile String "qst_na17.sym")
+      (SymbolId Integer 0)
+    )
+    (SRDNorthArrow SubTree
+      (Name String "North Arrow")
+      (InstanceInfo SubTree
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 4)
+        (Original_Quick_Style String _("North Arrow QS 17: Circle on rose"))
+        (RST_Group Integer 0)
+        (RST_VirtualRealLut String "GNC=GNC|GNL=GNL|GNR=GNR|GNSym=GNSym|MNC=MNC|MNL=MNL|MNR=MNR|MNSym=MNSym|TNC=TNC|TNL=TNL|TNR=TNR|TNSym=TNSym")
+        (RST_Desc String "North Arrow 17 RST")
+        (Master_Anchor Integer 8)
+        (My_Anchor Integer 7)
+        (X_Offset Double 25)
+        (Y_Offset Double 0)
+      )
+      (SRDTrueNorthArrow SubTree
+        (Name String "True North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("T.N."))
+            (Distance Double 47)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDGridNorthArrow SubTree
+        (Name String "Grid North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("G.N."))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDMagneticNorthArrow SubTree
+        (Name String "Magnetic North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("M.N"))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+    )
+  )
+  (QSTNorthArrow SubTree
+    (Name String _("North Arrow QS 18: Decorative #1 (w/ bird)"))
+    (InstanceInfo SubTree
+      (Deletable Integer 0)
+      (RSTFile String "qst_na18.rst")
+      (RSTSegment Integer 1)
+      (SymbolFile String "qst_na18.sym")
+      (SymbolId Integer 0)
+    )
+    (SRDNorthArrow SubTree
+      (Name String "North Arrow")
+      (InstanceInfo SubTree
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 4)
+        (Original_Quick_Style String _("North Arrow QS 18: Decorative #1 (w/ bird)"))
+        (RST_Group Integer 0)
+        (RST_VirtualRealLut String "GNC=GNC|GNL=GNL|GNR=GNR|GNSym=GNSym|MNC=MNC|MNL=MNL|MNR=MNR|MNSym=MNSym|TNC=TNC|TNL=TNL|TNR=TNR|TNSym=TNSym")
+        (RST_Desc String "North Arrow 18 RST")
+        (Master_Anchor Integer 8)
+        (My_Anchor Integer 7)
+        (X_Offset Double 25)
+        (Y_Offset Double 0)
+      )
+      (SRDTrueNorthArrow SubTree
+        (Name String "True North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading")
+          (InstanceInfo SubTree
+            (Heading String _("T.N."))
+            (Distance Double 47)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDGridNorthArrow SubTree
+        (Name String "Grid North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading")
+          (InstanceInfo SubTree
+            (Heading String _("G.N."))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDMagneticNorthArrow SubTree
+        (Name String "Magnetic North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading")
+          (InstanceInfo SubTree
+            (Heading String _("M.N"))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+    )
+  )
+  (QSTNorthArrow SubTree
+    (Name String _("North Arrow QS 19: Decorative #2 (w/ deer)"))
+    (InstanceInfo SubTree
+      (Deletable Integer 0)
+      (RSTFile String "qst_na19.rst")
+      (RSTSegment Integer 1)
+      (SymbolFile String "qst_na19.sym")
+      (SymbolId Integer 0)
+    )
+    (SRDNorthArrow SubTree
+      (Name String "North Arrow")
+      (InstanceInfo SubTree
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 4)
+        (Original_Quick_Style String _("North Arrow QS 19: Decorative #2 (w/ deer)"))
+        (RST_Group Integer 0)
+        (RST_VirtualRealLut String "GNC=GNC|GNL=GNL|GNR=GNR|GNSym=GNSym|MNC=MNC|MNL=MNL|MNR=MNR|MNSym=MNSym|TNC=TNC|TNL=TNL|TNR=TNR|TNSym=TNSym")
+        (RST_Desc String "North Arrow 19 RST")
+        (Master_Anchor Integer 8)
+        (My_Anchor Integer 7)
+        (X_Offset Double 25)
+        (Y_Offset Double 0)
+      )
+      (SRDTrueNorthArrow SubTree
+        (Name String "True North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading")
+          (InstanceInfo SubTree
+            (Heading String _("T.N."))
+            (Distance Double 47)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDGridNorthArrow SubTree
+        (Name String "Grid North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading")
+          (InstanceInfo SubTree
+            (Heading String _("G.N."))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDMagneticNorthArrow SubTree
+        (Name String "Magnetic North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading")
+          (InstanceInfo SubTree
+            (Heading String _("M.N"))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+    )
+  )
+  (QSTNorthArrow SubTree
+    (Name String _("North Arrow QS 20: Decorative #3"))
+    (InstanceInfo SubTree
+      (Deletable Integer 0)
+      (RSTFile String "qst_na20.rst")
+      (RSTSegment Integer 1)
+      (SymbolFile String "qst_na20.sym")
+      (SymbolId Integer 0)
+    )
+    (SRDNorthArrow SubTree
+      (Name String "North Arrow")
+      (InstanceInfo SubTree
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 4)
+        (Original_Quick_Style String _("North Arrow QS 20: Decorative #3"))
+        (RST_Group Integer 0)
+        (RST_VirtualRealLut String "GNC=GNC|GNL=GNL|GNR=GNR|GNSym=GNSym|MNC=MNC|MNL=MNL|MNR=MNR|MNSym=MNSym|TNC=TNC|TNL=TNL|TNR=TNR|TNSym=TNSym")
+        (RST_Desc String "North Arrow 20 RST")
+        (Master_Anchor Integer 8)
+        (My_Anchor Integer 7)
+        (X_Offset Double 25)
+        (Y_Offset Double 0)
+      )
+      (SRDTrueNorthArrow SubTree
+        (Name String "True North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading")
+          (InstanceInfo SubTree
+            (Heading String _("T.N."))
+            (Distance Double 47)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDGridNorthArrow SubTree
+        (Name String "Grid North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading")
+          (InstanceInfo SubTree
+            (Heading String _("G.N."))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDMagneticNorthArrow SubTree
+        (Name String "Magnetic North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading")
+          (InstanceInfo SubTree
+            (Heading String _("M.N"))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+    )
+  )
+  (QSTNorthArrow SubTree
+    (Name String _("North Arrow QS 21: Decorative #4"))
+    (InstanceInfo SubTree
+      (Deletable Integer 0)
+      (RSTFile String "qst_na21.rst")
+      (RSTSegment Integer 1)
+      (SymbolFile String "qst_na21.sym")
+      (SymbolId Integer 0)
+    )
+    (SRDNorthArrow SubTree
+      (Name String "North Arrow")
+      (InstanceInfo SubTree
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 3)
+        (Original_Quick_Style String _("North Arrow QS 21: Decorative #4"))
+        (RST_Group Integer 0)
+        (RST_VirtualRealLut String "GNC=GNC|GNL=GNL|GNR=GNR|GNSym=GNSym|MNC=MNC|MNL=MNL|MNR=MNR|MNSym=MNSym|TNC=TNC|TNL=TNL|TNR=TNR|TNSym=TNSym")
+        (RST_Desc String "North Arrow 21 RST")
+        (Master_Anchor Integer 8)
+        (My_Anchor Integer 7)
+        (X_Offset Double 25)
+        (Y_Offset Double 0)
+      )
+      (SRDTrueNorthArrow SubTree
+        (Name String "True North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("T.N."))
+            (Distance Double 47)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDGridNorthArrow SubTree
+        (Name String "Grid North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("G.N."))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDMagneticNorthArrow SubTree
+        (Name String "Magnetic North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("M.N"))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+    )
+  )
+  (QSTNorthArrow SubTree
+    (Name String _("North Arrow QS 22: Decorative #5 (w/ globe)"))
+    (InstanceInfo SubTree
+      (Deletable Integer 0)
+      (RSTFile String "qst_na22.rst")
+      (RSTSegment Integer 1)
+      (SymbolFile String "qst_na22.sym")
+      (SymbolId Integer 0)
+    )
+    (SRDNorthArrow SubTree
+      (Name String "North Arrow")
+      (InstanceInfo SubTree
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 3)
+        (Original_Quick_Style String _("North Arrow QS 22: Decorative #5 (w/ globe)"))
+        (RST_Group Integer 0)
+        (RST_VirtualRealLut String "GNC=GNC|GNL=GNL|GNR=GNR|GNSym=GNSym|MNC=MNC|MNL=MNL|MNR=MNR|MNSym=MNSym|TNC=TNC|TNL=TNL|TNR=TNR|TNSym=TNSym")
+        (RST_Desc String "North Arrow 22 RST")
+        (Master_Anchor Integer 8)
+        (My_Anchor Integer 7)
+        (X_Offset Double 25)
+        (Y_Offset Double 0)
+      )
+      (SRDTrueNorthArrow SubTree
+        (Name String "True North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 1)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("T.N."))
+            (Distance Double 47)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDGridNorthArrow SubTree
+        (Name String "Grid North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("G.N."))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+      (SRDMagneticNorthArrow SubTree
+        (Name String "Magnetic North")
+        (InstanceInfo SubTree
+          (Declination Double 0)
+          (Display Integer 0)
+        )
+        (SRDArrowHeading SubTree
+          (Name String "Heading_2")
+          (InstanceInfo SubTree
+            (Heading String _("M.N"))
+            (Distance Double 44)
+            (Angle Integer 2)
+            (Custom_Angle Double 0)
+            (Alignment Integer 1)
+            (Display Integer 0)
+          )
+        )
+      )
+    )
+  )
+)
+
+
+
+
+
+
+
+
+
+
+
+

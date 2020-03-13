@@ -1,0 +1,39 @@
+[QuickStyles1.00]
+(SRDLogoQSTList SubTree
+  (Name String _("Picture"))
+  (InstanceInfo SubTree
+    (SmallDefault String _("Picture QS 1: PCI Logo"))
+    (LargeDefault String "")
+    (QuickStyleNumber Integer 1)
+    (IsSeleted Integer 0)
+  )
+  (QSTLogo SubTree
+    (Name String _("Picture QS 1: PCI Logo"))
+    (InstanceInfo SubTree
+      (LogoFile String "qst_logo1.lgo")
+      (Deletable Integer 0)
+    )
+    (SRDLogo SubTree
+      (Name String "Logo")
+      (InstanceInfo SubTree
+        (Version Integer 31)
+        (DPI Double 600)
+        (LogoWidth Double           19.05000000000)
+        (LogoHeight Double            8.21266666667)
+        (LogoUnitSize String _("Millimeters"))
+        (Master_Moved_Reaction Integer 1)
+        (Master_Resized_Reaction Integer 1)
+        (Master_Rescaled_Reaction Integer 2)
+        (Master_Deleted_Reaction Integer 4)
+        (Original_Quick_Style String _("Logo QS 1: PCI Logo"))
+        (RST_Group Integer -1)
+        (RST_VirtualRealLut String "")
+        (Master_Anchor Integer 6)
+        (My_Anchor Integer 0)
+        (X_Offset Double -13)
+        (Y_Offset Double -20)
+        (LogoFile String "qst_logo1.lgo")
+      )
+    )
+  )
+)

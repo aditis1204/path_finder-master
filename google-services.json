@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "662479037959",
+    "firebase_url": "https://cloud-anchor-java-master.firebaseio.com",
+    "project_id": "cloud-anchor-java-master",
+    "storage_bucket": "cloud-anchor-java-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662479037959:android:bc17bdad44d97ea40f2ca2",
+        "android_client_info": {
+          "package_name": "com.google.ar.core.examples.java.cloudanchor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662479037959-6dl75mfp06f22pus2a83v8koifov7f6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "Enter your API key here"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662479037959-6dl75mfp06f22pus2a83v8koifov7f6m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
